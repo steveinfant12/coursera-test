@@ -1,0 +1,28 @@
+.container{
+    margin-top: 8%;
+    margin-left: 8%;
+    
+}
+.card:hover{
+    -webkit-box-shadow: -1px 9px 40px -12px rgba(0,0,0,.75);
+    -moz-box-shadow: -1px 9px 40px -12px rgba(0,0,0,.75);
+    box-shadow: -1px 9px 40px -12px rgba(0,0,0,.75);
+}
+
+.container .card1:hover
+{
+transform: translateY(-10px);
+box-shadow: 0 15px 35px rgba(0,0,0.5);
+transition: 0.5s;
+}
+.container .card:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -50;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255, 0.03);
+    pointer-events: none;
+    z-index: 1;
+}
